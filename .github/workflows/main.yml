@@ -8,13 +8,13 @@ jobs:
     steps:
       -
         name: 'Apply labels'
-        uses: andres-montanez/labeler-test@v2.17
+        uses: andres-montanez/labeler-test@v2.18
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           labels: |
             [
               { "name": "bugfix", "color": "d73a4a", "description": "For fixing a bug" },
-              { "name": "feature", "color": "0E8A16", "description": "A feature addition" },
+              { "name": "feature", "color": "0E8A16", "description": "A new feature" },
               { "name": "READY FOR REVIEW", "color": "000000", "description": "The PR is ready for Peer Review" },
               { "name": "documentation", "color": "0075ca", "description": "Improve documentation" }
             ]
