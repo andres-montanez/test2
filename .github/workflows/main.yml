@@ -8,7 +8,7 @@ jobs:
     steps:
       -
         name: 'Apply labels'
-        uses: andres-montanez/labeler-test@v2.11
+        uses: andres-montanez/labeler-test@v2.12
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           labels: |
