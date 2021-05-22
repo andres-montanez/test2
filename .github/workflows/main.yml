@@ -15,5 +15,6 @@ jobs:
             [
               { "name": "bugfix", "color": "d73a4a", "description": "For fixing a bug" },
               { "name": "feature", "color": "0E8A16", "description": "A feature addition" },
+              { "name": "READY FOR REVIEW", "color": "000000", "description": "PR is ready for Peer Review" },
               { "name": "documentation", "color": "0075ca", "description": "Improve documentation" }
             ]
